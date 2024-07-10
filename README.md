@@ -1,6 +1,7 @@
 # Recipe Tracker App
 
 Project Overview
+
 The Recipe Tracker App allows users to search for recipes, add new recipes, view recipe details, and delete recipes. This app aims to provide a simple and user-friendly interface for managing personal recipe collections.
 
 Features
