@@ -18,6 +18,6 @@ Frontend: HTML, CSS, React.js
 
 Backend:
 
-Database: Xampp
+Database: XAMPP
 
 Other Tools: Git
