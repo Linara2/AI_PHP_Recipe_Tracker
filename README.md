@@ -11,3 +11,13 @@ Add Recipes: Users can add new recipes with title, description, instructions, an
 View Recipe Details: Users can view detailed information about a recipe.
 Edit Recipes: Users can edit existing recipes.
 Delete Recipes: Users can delete recipes from their collection.
+
+Technologies Used
+
+Frontend: HTML, CSS, React.js
+
+Backend:
+
+Database: Xampp
+
+Other Tools: Git
