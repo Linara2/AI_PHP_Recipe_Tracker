@@ -109,6 +109,17 @@
       margin-top: 1rem;
       margin-top: 190px;
     }
+      .btn-red {
+        background-color: #ff8d8d;
+        border-color: #500303;
+      }
+      .btn-red:hover {
+        background-color: #cc0000;
+        border-color: #cc0000;
+      }
+      .btn-red + .btn-red {
+        margin-left: 60px;
+      }
 
     .features-section, .recipes-section {
       background-color: #000000;
@@ -117,20 +128,34 @@
     }
 
     .features-section h2, .recipes-section h2 {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-        color: #f19191;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #f19191;
     }
-
+    .feature-carousel {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px;
+    }
     .feature-item {
-        margin-bottom: 20px;
-        color: #f19191;
+      flex: 0 0 auto;
+      width: 345px;
+      margin-right: 24px;
+      padding: 60px;
+      background-color: #811010;
+      color: #ffffff;
+      border-radius: 20px;
+      text-align: center;
+    }
+    .feature-item i {
+      font-size: 2rem;
+      margin-bottom: 10px;
     }
     .recipe-card {
-        width: 18rem;
-        margin: 10px;
-        background-color: #170026;
-        color: #f19191;
+      width: 18rem;
+      margin: 10px;
+      background-color: #170026;
+      color: #f19191;
     }                   
     </style>
 
@@ -142,32 +167,37 @@
           <h1 class="title">Homecook Book - better than an expensive cookery book</h1>
           <p>Unleash a world of variety culinary recipes and unleah your inner chef the easy way<br> with Bon Appétit. Keep track of all your favorite recipes, create shopping lists, and<br> discover new culinary delights. Start your cooking journey today!</p>
           <div class="buttons">
-            <a href="register.html" class="btn btn-primary btn-lg">Register</a>
-            <a href="login.html" class="btn btn-secondary btn-lg">Login</a>
+            <a href="register.html" class="btn btn-red btn-lg">Create an account</a>
+            <a href="login.html" class="btn btn-red btn-lg">Already Registered?Login</a>
           </div>
         </div>
         </div>
       </div>
 
-
-    <div class="feature">
-      <div class="container features-section">
+      <div class="features-section">
         <h2>Features</h2>
-        <div class="row">
-          <div class="col-md-4 feature-item">
-            <h3>Search Recipes</h3>
-            <p>Easily find recipes by title or ingredients.</p>
-          </div>
-          <div class="col-md-4 feature-item">
-            <h3>Add Your Own Recipes</h3>
-            <p>Keep track of your favorite recipes by adding them to your collection.</p>
-          </div>
-          <div class="col-md-4 feature-item">
-            <h3>Discover New Recipes</h3>
-            <p>Explore new culinary delights from our extensive recipe database.</p>
-          </div>
+        <div class="feature-carousel">
+            <div class="feature-item">
+                <i class="bi bi-search"></i>
+                <h3>Search Recipes</h3>
+                <p>Easily find recipes by title or ingredients.</p>
+            </div>
+            <div class="feature-item">
+                <i class="bi bi-pencil-square"></i>
+                <h3>Add Your Own Recipes</h3>
+                <p>Keep track of your favorite recipes by adding them to your collection.</p>
+            </div>
+            <div class="feature-item">
+                <i class="bi bi-book"></i>
+                <h3>Discover New Recipes</h3>
+                <p>Explore new culinary delights from our extensive recipe database.</p>
+            </div>
+            <div class="feature-item">
+                <i class="bi bi-book"></i>
+                <h3>Discover New Recipes</h3>
+                <p>Explore new culinary delights from our extensive recipe database.</p>
+            </div>
         </div>
-      </div>
     </div>
       
       <div class="container recipes-section">
